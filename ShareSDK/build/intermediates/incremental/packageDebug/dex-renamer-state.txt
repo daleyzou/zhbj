@@ -1,0 +1,7 @@
+#Wed Apr 25 22:19:47 CST 2018
+base.0=C\:\\Users\\11543\\Desktop\\shareSDK\\v3.1.4\\ShareSDK for Android Sample\\SampleFresh\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9568fb767cafc3cd0b7decb457ffbe9fad959e18
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\11543\\Desktop\\shareSDK\\v3.1.4\\ShareSDK for Android Sample\\SampleFresh\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b8d9ff3d25596fe72d738ea63888779e805b6eea\\classes.dex
+base.1=C\:\\Users\\11543\\Desktop\\shareSDK\\v3.1.4\\ShareSDK for Android Sample\\SampleFresh\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b8d9ff3d25596fe72d738ea63888779e805b6eea
+file.0=C\:\\Users\\11543\\Desktop\\shareSDK\\v3.1.4\\ShareSDK for Android Sample\\SampleFresh\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9568fb767cafc3cd0b7decb457ffbe9fad959e18\\classes.dex

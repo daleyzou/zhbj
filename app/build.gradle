@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+// 添加插件
+apply plugin: "com.mob.sdk"
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.daleyzou.zhbj"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        useLibrary 'org.apache.http.legacy'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+//    aaptOptions.cruncherEnabled = false
+//    aaptOptions.useNewCruncher = false
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation project(':SlidingMenu-master')
+    implementation files('libs/xUtils-2.6.14.jar')
+    implementation files('libs/gson-2.3.1.jar')
+    implementation project(':ViewPagerIndicator-master')
+}
+// 在MobSDK的扩展中注册ShareSDK的相关信息
+MobSDK {
+    appKey "257150a36a59c"
+    appSecret "083967ab418ef61645471141f32e2418"
+
+    ShareSDK {
+        devInfo {
+            SinaWeibo {
+                appKey "257150a36a59c"
+                appSecret "083967ab418ef61645471141f32e2418"
+                callbackUri "http://www.sharesdk.cn"
+                shareByAppClient false
+            }
+            Wechat {
+                appId "257150a36a59c"
+                appSecret "083967ab418ef61645471141f32e2418"
+            }
+            QQ {
+                appId "257150a36a59c"
+                appKey "083967ab418ef61645471141f32e2418"
+            }
+        }
+    }
+}

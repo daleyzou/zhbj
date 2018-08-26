@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\11543\\Desktop\\shareSDK\\v3.1.4\\ShareSDK for Android Sample\\SampleFresh\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ssdk_oks_ptr_ptr.png",
+        "source": "C:\\Users\\11543\\Desktop\\shareSDK\\v3.1.4\\ShareSDK for Android Sample\\SampleFresh\\app\\src\\main\\res\\mipmap-hdpi\\ssdk_oks_ptr_ptr.png"
+    },
+    {
+        "merged": "C:\\Users\\11543\\Desktop\\shareSDK\\v3.1.4\\ShareSDK for Android Sample\\SampleFresh\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\11543\\Desktop\\shareSDK\\v3.1.4\\ShareSDK for Android Sample\\SampleFresh\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\11543\\Desktop\\shareSDK\\v3.1.4\\ShareSDK for Android Sample\\SampleFresh\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\share_icon.png",
+        "source": "C:\\Users\\11543\\Desktop\\shareSDK\\v3.1.4\\ShareSDK for Android Sample\\SampleFresh\\app\\src\\main\\res\\mipmap-hdpi\\share_icon.png"
+    }
+]

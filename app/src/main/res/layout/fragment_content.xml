@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.daleyzou.zhbj.view.NoScollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <!-- android:background="@drawable/bottom_tab_bg" -->
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/Bottom_Tab_Style"
+            android:drawableTop="@drawable/lamp_selector_background"
+            android:checked="true"
+            android:text="发现"/>
+        <RadioButton
+            android:id="@+id/rb_news"
+            style="@style/Bottom_Tab_Style"
+            android:drawableTop="@drawable/news_selector_background"
+            android:text="新闻"/>
+        <RadioButton
+            android:id="@+id/rb_smart"
+            style="@style/Bottom_Tab_Style"
+            android:drawableTop="@drawable/video_selector_background"
+            android:text="视听"/>
+        <RadioButton
+            android:id="@+id/rb_gov"
+            style="@style/Bottom_Tab_Style"
+            android:drawableTop="@drawable/read_selector_background"
+            android:text="阅读"/>
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/Bottom_Tab_Style"
+            android:drawableTop="@drawable/pc_selector_background"
+            android:text="我"/>
+
+    </RadioGroup>
+</LinearLayout>

@@ -2,7 +2,7 @@
 # 使用工具Android Studio实现一个简单的Android版的新闻APP
 
 <h4>目的：</h4>
->>这是我学完Android课程后所写的一个小的、简单版的新闻APP
+>>  这是我学完Android课程后所写的一个小的、简单版的新闻APP
 
 <h4>技术概要：</h4>
 >>  用到了SQLite数据库，用它来存储每篇新闻下的评论

@@ -25,7 +25,7 @@
 <h4>尝试一下：</h4>
 GitHub链接：
 
-如果你的手机是Android系统，apk安装包下载：**[点我下载](https://pan.baidu.com/s/1TRhE_SNThSQyDvhYXmVchw)**
+如果你的手机是Android系统，**apk安装包下载**：**[~~点我下载 地址一~~ ](https://pan.baidu.com/s/1TRhE_SNThSQyDvhYXmVchw)**     ||  [点我下载 地址二](https://github.com/daleyzou/GraduationProject/raw/master/ShareFile/app-debug.apk)
 
 <h4>截图展示：</h4>
 
